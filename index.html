@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-danger">Bài tập 1 tính tiền lương nhân viên</h2>
+      <div class="form-group">
+        <label for="">Nhập số ngày công</label>
+        <input
+          type="text"
+          name=""
+          id="soNgayCong"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-success" id="handleTinhTienLuong">
+        Tính tiền lương nhân viên
+      </button>
+      <div id="result"></div>
+    </div>
+
+    <br /><br /><br />
+    <div class="container">
+      <h2 class="text-danger">
+        Bài tập 2 tính giá trị trung bình của 5 số thực
+      </h2>
+      <div class="form-group">
+        <label for="">Nhập số thực thứ 1</label>
+        <input
+          type="text"
+          name=""
+          id="soThuc1"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số thực thứ 2</label>
+        <input
+          type="text"
+          name=""
+          id="soThuc2"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số thực thứ 3</label>
+        <input
+          type="text"
+          name=""
+          id="soThuc3"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số thực thứ 4</label>
+        <input
+          type="text"
+          name=""
+          id="soThuc4"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số thực thứ 5</label>
+        <input
+          type="text"
+          name=""
+          id="soThuc5"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-success" id="handleTinhTrungBinh">
+        Tính giá trị trung bình 5 số thực
+      </button>
+      <div id="result2"></div>
+    </div>
+    <br /><br /><br />
+
+    <div class="container">
+      <h2 class="text-danger">Bài tập 3 quy đổi tiền</h2>
+      <div class="form-group">
+        <label for="">Nhập số USD cần quy đổi:</label>
+        <input
+          type="text"
+          name=""
+          id="soUSD"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-success" id="handleQuyDoiUSD">
+        Quy Đổi Tiền USD
+      </button>
+      <div id="result3"></div>
+    </div>
+
+    <br /><br /><br />
+
+    <div class="container">
+      <h2 class="text-danger">Bài tập 4 tính toán hình học.</h2>
+      <div class="form-group">
+        <label for="">Nhập chiều dài hình chữ nhật:</label>
+        <input
+          type="text"
+          name=""
+          id="chieuDai"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập chiều rộng hình chữ nhật:</label>
+        <input
+          type="text"
+          name=""
+          id="chieuRong"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-success" id="handleTinhToan">
+        Tính chu vi diện tích
+      </button>
+      <div id="result4"></div>
+      <div id="result5"></div>
+    </div>
+
+    <br /><br /><br />
+    <div class="container">
+      <h2 class="text-danger">Bài tập 5 tính tổng 2 ký số</h2>
+      <div class="form-group">
+        <label for="">Nhập số có 2 chữ số:</label>
+        <input
+          type="text"
+          name=""
+          id="soHaiChuSo"
+          class="form-control"
+          placeholder=""
+          aria-describedby="helpId"
+        />
+      </div>
+
+      <button class="btn btn-success" id="handleTinhTong">
+        Tính tổng 2 ký số
+      </button>
+      <div id="result6"></div>
+    </div>
+    <br /><br /><br />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
